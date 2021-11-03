@@ -9,7 +9,8 @@ print("value of the z2 " ,z2)
 z3 = x * y #multiply
 print("value of the z3 ", z3)
 
-z4 = x / y
+z4 = x / y # division
 print("value of the z4 ", z4)
+
 z5 = x % y
 print("value of the z5 ", z5)
