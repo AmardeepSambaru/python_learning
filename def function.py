@@ -33,10 +33,15 @@ result = addition_val(n1,n2)
 print("the sum is : ",result)
 
 #Ex 5
+
+#find avarage marks
+
 def value(numbers):
     total_sum = sum(numbers)
     avarage_value = total_sum / len(numbers)
     return avarage_value
+
+# find Grade
 
 def grade_of(total_marks):
 
