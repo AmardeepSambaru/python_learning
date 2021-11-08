@@ -1,16 +1,9 @@
-x = 15
-y = 10
-z1 = x + y  #Addition
-print("value of the z1 ", z1)
+vowels = input("enter the  vowels:")
 
-z2 = x - y #subtraction
-print("value of the z2 " ,z2)
+vo_l = {'a' , 'e' , 'i' , 'o' , 'u'}
 
-z3 = x * y #multiply
-print("value of the z3 ", z3)
+if vowels in vo_l:
+    print ("given character is vowel")
 
-z4 = x / y # division
-print("value of the z4 ", z4)
-
-z5 = x % y
-print("value of the z5 ", z5)
+else :
+    print("given character is not vowel")
