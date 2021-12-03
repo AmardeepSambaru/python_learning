@@ -7,3 +7,4 @@ def odd_even():
         print("{} is the odd number".format(num))
     return
 odd_even()
+

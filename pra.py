@@ -94,7 +94,7 @@ n = '489745612302'
 co = EAN13(n)
 co.save("bar_code")'''
 
-
+'''
 class point:
     def __init__(self, x=0, y=0):
         self.x = x
@@ -111,5 +111,35 @@ class point:
 
 p1 = point(1, 2)
 p2 = point(3, 4)
-print(p1+p2)
+print(p1+p2)'''
 
+
+# polymorphsim
+
+class animals:
+
+    def walk(self):
+        print("animals can walk")
+
+    def talk(self):
+        print("animals cannot talk")
+
+    def swim(self):
+        print("animals can also swim")
+
+
+class bird:
+
+    def walk(self):
+        print("birds can walk")
+
+    def swim(self):
+        print("birds cannot swim")
+
+dog = animals
+parrot = bird
+
+for nature in (animals,bird):
+    nature.walk(1)
+    nature.swim(1)
+    nature.talk(1)
